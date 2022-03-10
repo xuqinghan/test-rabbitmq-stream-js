@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xuqinghan/test-rabbitmq-stream-js.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xuqinghan/test-rabbitmq-stream-js/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/xuqinghan/test-rabbitmq-stream-js#readme",
+  "homepage": "",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^8.0.0",

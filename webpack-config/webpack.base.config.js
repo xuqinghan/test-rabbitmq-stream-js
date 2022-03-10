@@ -24,7 +24,8 @@ module.exports = {
 
     resolve: {
         //指定三个扩展名
-        extensions: ['.js', '.ts', '.tsx']
+        extensions: ['.js', '.ts', '.tsx'],
+        // modules: ['src', 'node_modules', 'assets']
     },
 
     //因为引用了 typescript 所以这里引用ts-loader
