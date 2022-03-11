@@ -28,7 +28,8 @@ client.onConnect = function (frame) {
     }
 
     var subscription = client.subscribe(
-        "/amq/queue/mystream", //created via rstream demo                        error
+        //"/amq/queue/mystream", //created via rstream demo                        error
+        "/amq/queue/mystream_pika", //created via pika                           OK
         //"/amq/queue/s_test",  // created via http://127.0.0.1:15672/#/queues   OK
         callback,
         {
@@ -37,7 +38,7 @@ client.onConnect = function (frame) {
             'auto-delete': false,
             'x-queue-type': 'stream',
             'prefetch-count': 10,
-            'x-stream-offset': 'last'
+            'x-stream-offset': 'first'
         })
 }
 
